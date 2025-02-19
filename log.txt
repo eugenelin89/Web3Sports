@@ -1,0 +1,265 @@
+- [[Project Insure]] [[Proposal]] [[Insurance Software Zoom Meeting Summary]]  
+-  
+- 2022-12-09 (Taiwan Time)  
+	- 8:30 Start: 2 hr  
+		- visibility for creator and owner of businesses  
+	- 10:30 Break  
+	- 11:30 Resume: 1hr  
+		- visibility done.  
+		- Start implementing frontend.  
+	- 12:30 Lunch  
+- 2022-12-08 (Taiwan Time)  
+	- 8:30am Start 3.5 hr  
+		- permissions.py for MyBusiness  
+			- Done: 10:19  
+		- Permission for the My Business list  
+			- MyBusinessView.get_queryset(self)  
+	- 12:00pm Break  
+- 2022-12-07 (Taiwan Time)  
+	- 9am Start: 3 hr  
+		- Continue from yesterday, connecting "owner" to "business"  
+			- First, need to serialize Business_User and associated models  
+			- Serialized BusinessUserRole  
+		- Next time: Continue on permissions.py  
+	- 12pm End  
+- 2022-12-06 (Taiwan Time)  
+	- 10:00am Start: 4 hr  
+		- Authentication and Permissions  
+		- User instance shows businesses that he created.  
+		- Next: Do the same thing with the MyUser and Business_User models  
+	- 2:00PM End  
+- 2022-12-05 (Taiwan Time)  
+	- 8:30 am Start: 3.5 hr  
+		- Authentication and Permissions  
+	- 12:00 pm End  
+		-  
+- 2022-12-02 (Taiwan Time)  
+	- 8:30 Start  
+		- Serialized Gender Model  
+		- Switched to HyperlinkedModelSerializer  
+	- 11:30 break  
+- 2022-12-01 (Taiwan Time): 4.5 hr  
+	- 8:00am Start  
+		- Serializing Client  
+		- Client View Set  
+	- 12:30pm break  
+		-  
+- 2022-11-29 (Taiwan Time): 5 hr  
+	- 9:30am Start: 3.5 hr  
+		- authentication and permissions  
+	- 1:00pm break  
+	- 1:30pm resume: 1.5 hr  
+		- Hyperlink API  
+		- Viewsets  
+		- Routers  
+	- 3:00 break  
+	-  
+- 2022-11-28 (Taiwan Time): 1 hr  
+	- 7:50am Start  
+	- 8:50am Break  
+- 2022-11-26 (Taiwan Time): 3 hr  
+	- 9am start  
+		- RESTful Authenticaiotn  
+	- 12pm Break  
+	-  
+- 2022-11-25: 3.5 hr  
+	- 3:30am Start (in the air plane)  
+	- 4:00am break  
+	- 7:00am Resume  
+	- 8:00am break  
+	- 9:30am Resume  
+	- 11:00am break  
+- 2022-11-24: 2 hr  
+	- 9:30am Start: 2 hr  
+		- Installing and configuring REST API documentation with MD Viewer  
+	- 11:30am Break  
+- 2022-11-23: 1.5 hr  
+	- 11am start: 1.5 hr  
+		- Continuing with Serialization  
+	- 12:30pm break  
+- 2022-11-22: 3.5 hrs  
+	- 2pm start: 1 hr  
+		- Django REST Framework setup. Investigation and revert.  
+	- 3pm break  
+	- 3:30pm resume: 1.5 hr  
+		- Extracted REST API to its own app within the project.  
+	- 5:00 break  
+	- 9pm resume: 1 hr  
+		- Serialization  
+	- 10pm break  
+- 2022-11-18: 2.5 hr  
+	- 8pm start: 2.5hr  
+		- Serializing model for frontend SPA using React  
+	- 10:30pm break  
+- 2022-11-17: 4 hrs  
+	- 11:00am Start: 2hr  
+		- Continue with coding data model  
+			- InsuranceProvider  
+			- InsurancePlanType  
+			- InsurancePlan  
+			- Medical  
+			- InsuranceApplication_Medical  
+		- Go thru the models to verify fields can be null  
+	- 1pm Break  
+	- 1:30 Resume: 2hr  
+		- Creating unit test for models  
+	- 3:30 Break  
+- 2022-11-16: 5 hrs  
+	- 11:00 start: 3 hr  
+		- Implementing data model in code  
+			- BusinessUserRole  
+			- Business_User  
+			- BusinessType  
+			- ProductType  
+			- Product  
+			- ComplianceEntity  
+			- Business_ComplianceEntity  
+			- Document  
+			- Business_Document  
+			- BusinessStatus  
+			- MyBusiness  
+	- 2pm break  
+	- 8pm resume: 2hrs  
+		- Continue to implement data model in code  
+			- Client  
+			- Gender  
+			- Country  
+			- ProvinceState  
+			- AddressType  
+			- Address  
+			- Phone  
+			- PhoneType  
+			- Email  
+			- EmailType  
+			- InsuranceApplication  
+	- 10pm break  
+		-  
+- 2022-11-15: 6 hr  
+	- 11:00 Start 2 hr  
+	- Continue with Data Modelling. Constructing [E-R Diagram](https://drive.google.com/file/d/1sLgDExGoH5syGOMjvTHr2W5pHGKaCoBv/view?usp=sharing)  
+	- [Data Model](https://drive.google.com/file/d/1sLgDExGoH5syGOMjvTHr2W5pHGKaCoBv/view?usp=sharing)  
+	- code.  
+	- 13:00 Break  
+	- 13:30 Resume 4 hr  
+	- Implement Data Model  
+	- Custom User Model  
+	- 5:30 Finish  
+- 2022-11-14: 5.5 hr  
+	- 11:00 Start: 3.5 hr  
+		- [Data Modelling](https://docs.google.com/document/d/1j89GsAP12X44chXHaSQd0__7xqlAB9cEP1OZXGvgKYk/edit?usp=sharing)  
+	- 14:30 Break  
+	- 3:00 start: 2 hr  
+		- Continue with Data Modelling  
+	- 5:00 Finsh  
+- 2022-11-11 4 hr 30 min  
+	- 11:30 Start  
+	- Adding app_name to users app caused warning. Investigation and fix. 2 hrs.  
+		- Additional entry of users in myproject/urls.py originally there to redirect root path to users.  
+		- Restructured by removing the second entry of users: path('users/', include("users.urls"))  
+		- In users/url.py, adding app_name to it.  
+		- Update all files referencing resources under users app.  
+	- 1:30pm break, 2 hr  
+	- 2:00 resume  
+	- DONE User loggedin required to access My Business  
+:logbook:
+	  		  CLOCK: [2022-11-11 Fri 14:26:38]--[2022-11-11 Fri 15:12:35] =>  00:45:57
+	  		  CLOCK: [2022-11-11 Fri 15:12:49]--[2022-11-11 Fri 15:12:50] =>  00:00:01
+:END:
+		- Change the login-redirect mechanism to use the @login_required decorator  
+		- Redirecting back to the page that required login.  
+	- DONE Link to NBF from My Business  
+:logbook:
+	  		  CLOCK: [2022-11-11 Fri 15:15:46]--[2022-11-11 Fri 15:26:36] =>  00:10:50
+:END:
+		- DONE My Business and NBF must know which user is currently logged in.  
+:logbook:
+		  			  CLOCK: [2022-11-11 Fri 15:16:53]--[2022-11-11 Fri 15:20:01] =>  00:03:08
+:END:
+	- 3:30pm break, 1.5hr  
+	- 5:30pm resume  
+	- DOING Start on NBF  
+:logbook:
+	  		  CLOCK: [2022-11-11 Fri 17:26:26]--[2022-11-11 Fri 17:26:28] =>  00:00:02
+	  		  CLOCK: [2022-11-11 Fri 17:32:22]
+:END:
+		- DONE Data Modelling  
+:logbook:
+		  			  CLOCK: [2022-11-11 Fri 17:32:34]--[2022-11-11 Fri 18:38:16] =>  01:05:42
+:END:
+	- 6:30pm break, 1hr  
+- 2022-11-10 5 hr 30 min  
+	- 12:30pm start  
+	- Login  
+	- Admin  
+	- Added "Business" app. Start to work on My Business and NBF  
+	- end at 6pm  
+- 2022-11-09 4 hr 15 min  
+	- 11 am start  
+	- **str**() for model  
+	- Adding additional model, introduce foreign key in the model. Running makemigrations and migrations  
+	- Modifying model. Migrate database when the model has been changed.  
+	- Created superuser for admin  
+	- Creating admin page  
+	- Adding individual page to display details of each record in a model (flight)  
+	- Model (passenger) with many-to-many relationship  
+	- Posting to URL to add a record into model (passenger)  
+	- break at 14:00, 3hrs  
+	- 9pm start  
+	- Web Frontend to allow selecting from query from a search for updating the model. (Adding passenger to flight)  
+	- customize admin  
+	- user login.  
+	- end at 22:14, 1 hr 15 min  
+- 2022-11-08: 5 hr  
+	- 11 am start  
+	- Using render function in views.py for hello app, and added html templates. Will try to make this the base code.  
+	- git checkout -b devevlop # integration branch  
+	- git checkout -b hello # the "hello" feature branch, branched from develop  
+	- git checkout -b newyear # "newyear" feature branch, branched from develop  
+	- dynamic content in newyear/index  
+	- styling with static/newyear/styles.css  
+	- merge branch newyear into develop  
+	- git checkout -b tasks # "tasks" feature branch, branched from develop  
+	- Template Inheritance  
+	- Dynamic Link  
+	- CSRF Token  
+	- Using Django form instead of directly marking up with HTML  
+	- Django form server side validation.  
+	- Redirect, by reverse engineering from name to URL  
+	- Store session in table, by first running: python manage.py migrate  
+	- 14:34 break - 3.5 hr  
+	- 3pm start, with focus on DB  
+	- git checkout -b flights # "flight" feature branch, branched from develop  
+	- $ python manage.py makemigrations  
+	  Migrations for 'flights':  
+	  flights/migrations/0001_initial.py  
+		- Create model Flight  
+	- $ python manage.py migrate  
+	  Operations to perform:  
+	  Apply all migrations: admin, auth, contenttypes, flights, sessions  
+	  Running migrations:  
+	  Applying flights.0001_initial... OK  
+	- Examine DB models with $python manage.py shell  
+	- 16:30 break - 1.5 hr  
+	-  
+	-  
+	-  
+- 2022-11-07: 4.5 hr  
+	- Created directory  
+	- **conda create -n insure pip python=3.10**  
+	- **[conda install -c anaconda django](https://anaconda.org/anaconda/django)**  
+	- **django-admin startproject insure**  
+	- python manage.py startapp mybusiness  
+	- created git repo  
+	- **git remote set-url origin https://eugenelin89:edXYwF4K5gYdKxQN4kq7@bitbucket.org/coldbrew-insure/my-business.git**  
+	- **git push --set-upstream origin master**  
+	- **hello world** e529aff53fa508942f25690e8a8cbd712040a01a  
+		- created mybusiness/urls.py  
+		- modified:   insure/settings.py  
+		- modified:   insure/urls.py  
+		- modified:   mybusiness/views.py  
+	- There was something wrong with the path configuration. To make things simple because we are so early in the dev process, I recreated a new project and new app.  
+		- Project: myproject  
+		- App: hello  
+		- Repo: git remote add origin https://eugenelin89:edXYwF4K5gYdKxQN4kq7@bitbucket.org/coldbrew-insure/hello.git  
+	-  
+		-  

@@ -1,0 +1,6 @@
+{% extends "mybusiness/layout.html" %} 
+{% block body%}
+<h1>*NEW* My Businesss</h1>
+<p>{{request.user.first_name}}</p>
+<a href="{% url 'mybusiness:new_business' %}">NBF</a>
+{% endblock %}
